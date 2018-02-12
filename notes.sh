@@ -55,7 +55,12 @@ if [ "filter" == "$1" ]; then
   else
     cat="$2"
   fi
-  ls "$note_dir" | grep "$cat"
+  ls "$note_dir" | grep "$cat" | while read -r line; do
+  	echo "$line"
+  	echo '\t'$(cat "$note_dir/$line")
+  	echo
+  	echo
+  done
   exit 0
 fi
 
