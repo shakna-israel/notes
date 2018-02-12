@@ -13,6 +13,9 @@ It depends on:
 * A POSIX-compliant ```mkdir``` executable or function being available to ```sh```.
 * A POSIX-compliant ```cat``` executable or function being available to ```sh```.
 * A POSIX-compliant ```grep``` executable or function being available to ```sh```.
+* A POSIX-compliant ```ls``` executable or function being available to ```sh```.
+* A POSIX-compliant ```read``` executable or function being available to ```sh```.
+* A POSIX-compliant ```exit``` executable or function being available to ```sh```.
 
 All of these should be available in a standard Linux or macOS install.
 
