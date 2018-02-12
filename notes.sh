@@ -8,7 +8,7 @@ else
 fi
 
 # Display help
-if [ -z "$1" ] || [ "$1" == "--help" ]; then
+if [ -z "$1" ] || [ "$1" == '--help' ]; then
   echo 'notes.sh filter CATEGORY'
   echo 'Display any files matching the given category.'
   echo
@@ -22,7 +22,7 @@ if [ -z "$1" ] || [ "$1" == "--help" ]; then
   echo
 
   echo 'note.sh CONTENT'
-  echo 'Create a new note in the General category, with the given content.
+  echo 'Create a new note in the General category, with the given content.'
   echo
 
   echo 'note.sh :CATEGORY'
@@ -40,7 +40,7 @@ if [ -z "$1" ] || [ "$1" == "--help" ]; then
   echo 'You can change your notes directory by setting $NOTE_DIR, otherwise it will be ~/.notes'
   echo 'This directory will be checked for existence and created with any other command.'
 
-  exit -1
+  exit 0
 fi
 
 # Check our folder structures exist
