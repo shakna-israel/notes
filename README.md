@@ -1,6 +1,6 @@
 # notes
 
-An incredibly simple notes script.
+An incredibly simple notes script. It can search, filter by category, and store notes.
 
 It depends on:
 
@@ -18,7 +18,7 @@ All of these should be available in a standard Linux or macOS install.
 
 [Busybox](https://www.busybox.net/) should be enough to get it running under Windows. (Or if you have [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) or [Cygwin](https://www.cygwin.com/), they'll work too. ```notes``` isn't particular.)
 
-If you're going to use notes interactively, then you'll probably also want to set the $EDITOR environment variable.
+If you're going to use ```notes``` interactively, then you'll probably also want to set the $EDITOR environment variable.
 
 ---
 
